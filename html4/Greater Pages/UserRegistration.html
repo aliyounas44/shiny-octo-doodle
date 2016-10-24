@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>
+			User Registration Form
+		</title>
+	</head>
+	
+	<body>
+		<FORM action="http://somesite.com/prog/adduser" method="post">
+			<P>
+				<LABEL for="firstname">First name: </LABEL>
+				<INPUT type="text" id="firstname"><BR>
+				<LABEL for="lastname">Last name: </LABEL>
+				<INPUT type="text" id="lastname"><BR>
+				<INPUT type="radio" name="sex" value="Male"> Male<BR>
+				<INPUT type="radio" name="sex" value="Female"> Female<BR>
+				<FIELDSET>
+					<LEGEND>Medical History</LEGEND>
+					<INPUT name="history_illness" type="checkbox" value="Smallpox" tabindex="20"> Smallpox
+					<INPUT name="history_illness" type="checkbox" value="Mumps" tabindex="21"> Mumps
+					<INPUT name="history_illness" type="checkbox" value="Dizziness" tabindex="22"> Dizziness
+					<INPUT name="history_illness" type="checkbox" value="Sneezing" tabindex="23"> Sneezing
+				</FIELDSET>
+				<LABEL>Country: </LABEL>
+				<select>
+					<option value="Pakistan">Pakistan</option>
+					<option value="Poland">Poland</option>
+					<option value="Ukraine">Ukraine</option>
+					<option value="Belarus">Belarus</option>
+				</select><BR>
+				<LABEL for="Billing Address">Billing Address: </LABEL><TEXTAREA name="Billing Address" rows="3" cols="15" tabindex="20"></TEXTAREA><BR>
+				<LABEL for="email">email: </LABEL>
+				<INPUT type="text" id="email"><BR>
+				<LABEL for="email">login: </LABEL>
+				<INPUT type="text" id="login"><BR>
+				<LABEL for="email">password: </LABEL>
+				<INPUT type="text" id="password"><BR>
+				<LABEL for="email">phone: </LABEL>
+				<INPUT type="text" id="phone"><BR>
+				
+				<INPUT type="submit" value="Send"> <INPUT type="reset">
+			</P>
+		</FORM>
+	</body>
+</html>
