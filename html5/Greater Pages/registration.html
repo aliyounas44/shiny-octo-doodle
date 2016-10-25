@@ -11,213 +11,203 @@
 	</head>
 	<body>
 		<form>
-			<table>
-				<th>
-					<h1>
+			<table width="500">
+				<tr>
+					<th>
 						User Registration Form
-					</h1>
-				</th>
+					</th>
+				</tr>
 				<tr>
-					<td>
-						<table>
-							<tr>
-								<td>
-									<fieldset>
-										<legend> Personal Information </legend>
-										<table>
-											<tr>
-												<td>
-													<label>First Name</label>
-												</td>
-												<td>
-													<input type = "text" name="firstName" placeholder="Enter your first name!" autofocus required />
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Last Name</label>
-												</td>
-												<td>
-													<input type = "text" name="lastName" placeholder="Enter your last name!" required />
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>I am</label>
-												</td>
-												<td>
-													<select>
-														<option value="">Select sex</option>
-														<option value="male">Male</option>
-														<option value="female">Female</option>
-													</select>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Email</label>
-												</td>
-												<td>
-													<input type = "email" name="email" placeholder="email@domain.com" required />
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Personal Website</label>
-												</td>
-												<td>
-													<input type = "url" name="email" placeholder="Your website's url." />
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Phone no</label>
-												</td>
-												<td>
-													<input type = "tel" name="phone" placeholder="Your phone number." required />
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Date of Birth</label>
-												</td>
-												<td>
-													<input type = "date" name="dob" required />
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Color of Your eye</label>
-												</td>
-												<td>
-													<input type = "color" name="eyes" required/>
-												</td>
-											</tr>
-										</table>
-									</fieldset>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<fieldset>
-										<legend> Billing Information </legend>
-										<table>
-											<tr>
-												<td>
-													<label>Country of living</label>
-												</td>
-												<td>
-													<select>
-														<option value="">Select your country</option>
-														<option value="Pakistan">Pakistan</option>
-														<option value="Poland">Poland</option>
-														<option value="Ukraine">Ukraine</option>
-														<option value="Belarus">Belarus</option>
-													</select>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Billing Address </label>
-												</td>
-												<td>
-													<TEXTAREA name="billingAddress" rows="3" cols="17"></TEXTAREA>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Shipping Address </label>
-												</td>
-												<td>
-													<TEXTAREA name="shippingAddress" rows="3" cols="17"></TEXTAREA>
-												</td>
-											</tr>
-										</table>
-									</fieldset>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<fieldset>
-										<legend> Login Information </legend>
-										<table>
-											<tr>
-												<td>
-													<label>Username Address </label>
-												</td>
-												<td>
-													<INPUT type="text" id="username" placeholder="Enter username" required/>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Password</label>
-												</td>
-												<td>
-													<INPUT type="password" id="password" required/>
-												</td>
-											</tr>
-										</table>
-									</fieldset>
-								</td>
-							</tr>
-						</table>
+					<td>						
+						<fieldset>
+							<legend> Personal Information </legend>
+							<table cols="2" width="100%">
+								<col style="width:50%">
+								<col style="width:50%">
+								<tr>
+									<td>
+										<label>First Name</label>
+									</td>
+									<td>
+										<input type = "text" name="firstName" placeholder="Enter your first name!" autofocus required />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Last Name</label>
+									</td>
+									<td>
+										<input type = "text" name="lastName" placeholder="Enter your last name!" required />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>I am</label>
+									</td>
+									<td>
+										<select>
+											<option value="">Select sex</option>
+											<option value="male">Male</option>
+											<option value="female">Female</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Email</label>
+									</td>
+									<td>
+										<input type = "email" name="email" placeholder="email@domain.com" required />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Personal Website</label>
+									</td>
+									<td>
+										<input type = "url" name="email" placeholder="Your website's url." />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Phone no</label>
+									</td>
+									<td>
+										<input type = "tel" name="phone" placeholder="Your phone number." required />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Date of Birth</label>
+									</td>
+									<td>
+										<input type = "date" name="dob" required />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Color of Your eye</label>
+									</td>
+									<td>
+										<input type = "color" name="eyes"/>
+									</td>
+								</tr>
+							</table>
+						</fieldset>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<table>
-							<tr>
-								<td>
-									<fieldset>
-										<legend>Front End Knowledge</legend>
-										<table>
-											<tr>
-												<td>
-													<label>Courses Attended so far</label>
-												</td>
-												<td>
-													<input type="number" min="0" max="5">
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<label>Front end knowledge</label>
-												</td>
-												<td>
-													<input type="range" name="frontEndSkills" min="0" max="10">
-												</td>
-											</tr>
-										</table>
-									</fieldset>
-								</td>
-							</tr>
-						</table>
+						<fieldset>
+							<legend> Billing Information </legend>
+							<table  cols="2" width="100%">
+								<col style="width:50%">
+								<col style="width:50%">
+								<tr>
+									<td>
+										<label>Country of living</label>
+									</td>
+									<td>
+										<select>
+											<option value="">Select your country</option>
+											<option value="Pakistan">Pakistan</option>
+											<option value="Poland">Poland</option>
+											<option value="Ukraine">Ukraine</option>
+											<option value="Belarus">Belarus</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Billing Address </label>
+									</td>
+									<td>
+										<TEXTAREA name="billingAddress" rows="3" cols="17"></TEXTAREA>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Shipping Address </label>
+									</td>
+									<td>
+										<TEXTAREA name="shippingAddress" rows="3" cols="17"></TEXTAREA>
+									</td>
+								</tr>
+							</table>
+						</fieldset>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<table>
-							<tr>
-								<td>
-									<fieldset>
-										<legend> Register </legend>
-										<table>
-											<tr>
-												<td>
-													<INPUT name="terms" type="checkbox" value="terms">I've read and agree to<span style="color:blue" title = "T&C"> Terms & Conditions. </span>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<input type = "submit" value = "submit">
-												</td>
-											</tr>
-										</table>
-									</fieldset>
-								</td>
-							</tr>
-						</table>
+						<fieldset>
+							<legend> Login Information </legend>
+							<table cols="2" width="100%">
+								<col style="width:50%">
+								<col style="width:50%">
+								<tr>
+									<td>
+										<label>Username</label>
+									</td>
+									<td>
+										<INPUT type="text" id="username" placeholder="Enter username" required/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Password</label>
+									</td>
+									<td>
+										<INPUT type="password" id="password" required/>
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<fieldset>
+							<legend>Front End Knowledge</legend>
+							<table cols="2" width="100%">
+								<col style="width:50%">
+								<col style="width:50%">
+								<tr>
+									<td>
+										<label>Courses Attended</label>
+									</td>
+									<td>
+										<input type="number" min="0" max="5">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Front end knowledge</label>
+									</td>
+									<td>
+										<input type="range" name="frontEndSkills" min="0" max="5">
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<fieldset>
+							<legend> Register </legend>
+							<table>
+								<tr>
+									<td>
+										<INPUT name="terms" type="checkbox" value="terms">I've read and agree to<span style="color:blue" title = "T&C"> Terms & Conditions. </span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type = "submit" value = "submit">
+									</td>
+								</tr>
+							</table>
+						</fieldset>
 					</td>
 				</tr>
 			</table>
