@@ -8,13 +8,13 @@
 	
 	<body>
 		<FORM action="http://somesite.com/prog/adduser" method="post">
-			<P>
-				<LABEL for="firstname">First name: </LABEL>
-				<INPUT type="text" id="firstname"><BR>
-				<LABEL for="lastname">Last name: </LABEL>
-				<INPUT type="text" id="lastname"><BR>
-				<INPUT type="radio" name="sex" value="Male"> Male<BR>
-				<INPUT type="radio" name="sex" value="Female"> Female<BR>
+			
+				<p><LABEL for="firstname">First name: </LABEL>
+				<INPUT type="text" id="firstname"></p>
+				<p><LABEL for="lastname">Last name: </LABEL>
+				<INPUT type="text" id="lastname"></p>
+				<p><INPUT type="radio" name="sex" value="Male"> Male</p>
+				<p><INPUT type="radio" name="sex" value="Female"> Female</p>
 				<FIELDSET>
 					<LEGEND>Medical History</LEGEND>
 					<INPUT name="history_illness" type="checkbox" value="Smallpox" tabindex="20"> Smallpox
@@ -22,25 +22,25 @@
 					<INPUT name="history_illness" type="checkbox" value="Dizziness" tabindex="22"> Dizziness
 					<INPUT name="history_illness" type="checkbox" value="Sneezing" tabindex="23"> Sneezing
 				</FIELDSET>
-				<LABEL>Country: </LABEL>
+				<p><LABEL>Country: </LABEL>
 				<select>
 					<option value="Pakistan">Pakistan</option>
 					<option value="Poland">Poland</option>
 					<option value="Ukraine">Ukraine</option>
 					<option value="Belarus">Belarus</option>
-				</select><BR>
-				<LABEL for="Billing Address">Billing Address: </LABEL><TEXTAREA name="Billing Address" rows="3" cols="15" tabindex="20"></TEXTAREA><BR>
-				<LABEL for="email">email: </LABEL>
-				<INPUT type="text" id="email"><BR>
-				<LABEL for="email">login: </LABEL>
-				<INPUT type="text" id="login"><BR>
-				<LABEL for="email">password: </LABEL>
-				<INPUT type="text" id="password"><BR>
-				<LABEL for="email">phone: </LABEL>
-				<INPUT type="text" id="phone"><BR>
+				</select></p>
+				<p><LABEL for="BillingAddress">Billing Address: </LABEL><TEXTAREA id="BillingAddress" rows="3" cols="15" tabindex="20"></TEXTAREA></p>
+				<p><LABEL for="email">email: </LABEL>
+				<INPUT type="text" id="email"></p>
+				<p><LABEL for="email">login: </LABEL>
+				<INPUT type="text" id="login"></p>
+				<p><LABEL for="email">password: </LABEL>
+				<INPUT type="text" id="password"></p>
+				<p><LABEL for="email">phone: </LABEL>
+				<INPUT type="text" id="phone"></p>
 				
-				<INPUT type="submit" value="Send"> <INPUT type="reset">
-			</P>
+				<p><INPUT type="submit" value="Send"> <INPUT type="reset"></p>
+		
 		</FORM>
 	</body>
 </html>
