@@ -4,11 +4,13 @@
 		<title>
 			User Registration Form
 		</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<meta name="keywords" content="user, registration, sign up">
+		<meta name="author" content="Ali Younas">
 	</head>
 	
 	<body>
-		<FORM action="http://somesite.com/prog/adduser" method="post">
-			
+		<FORM name="loginInformation" action="" method="post">
 				<p><LABEL for="firstname">First name: </LABEL>
 				<INPUT type="text" id="firstname"></p>
 				<p><LABEL for="lastname">Last name: </LABEL>
@@ -29,17 +31,18 @@
 					<option value="Ukraine">Ukraine</option>
 					<option value="Belarus">Belarus</option>
 				</select></p>
-				<p><LABEL for="BillingAddress">Billing Address: </LABEL><TEXTAREA id="BillingAddress" rows="3" cols="15" tabindex="20"></TEXTAREA></p>
-				<p><LABEL for="email">email: </LABEL>
+				<p><LABEL for="BillingAddress">Billing Address: </LABEL><TEXTAREA id="BillingAddress" rows="3" cols="15"></TEXTAREA></p>
+				<p><LABEL for="ShippingAddress">Shipping Address: </LABEL><TEXTAREA id="ShippingAddress" rows="3" cols="15"></TEXTAREA></p>
+				<p><LABEL for="email">Email: </LABEL>
 				<INPUT type="text" id="email"></p>
-				<p><LABEL for="email">login: </LABEL>
+				<p><LABEL for="email">Login: </LABEL>
 				<INPUT type="text" id="login"></p>
-				<p><LABEL for="email">password: </LABEL>
-				<INPUT type="text" id="password"></p>
-				<p><LABEL for="email">phone: </LABEL>
+				<p><LABEL for="email">Password: </LABEL>
+				<INPUT type="password" id="password"></p>
+				<p><LABEL for="email">Phone: </LABEL>
 				<INPUT type="text" id="phone"></p>
 				
-				<p><INPUT type="submit" value="Send"> <INPUT type="reset"></p>
+				<p><INPUT type="submit" value="Send"> <INPUT type="reset" value ="Reset"></p>
 		
 		</FORM>
 	</body>
